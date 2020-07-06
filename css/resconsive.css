@@ -1,0 +1,154 @@
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	img {
+		max-width: 100%;
+	}
+	#header {
+		width: 100%;
+		height: auto;
+	}
+	.header-content {
+		width: 100%;
+		padding: 10px 0px;
+		height: 40px;
+	}
+	.header-logo {
+		margin: -40px auto;
+		height: 40px;
+		width: 76.7px;
+		text-align:-webkit-match-parent;
+		float: none;
+	}
+	.header-menu {
+		    width: 0%;
+    transition: width 0.3s ease-out;
+	}
+	.header-search {
+		display: none;
+	}
+	.header-language {
+		display: none;
+	}
+	.header-location {
+		display: none;
+	}
+	.header-user {
+		display: none;
+	}
+	.header-minicart {
+		float: none;
+		position: absolute;
+		left: 326px;
+		overflow: hidden;
+		top: 1px;
+	}
+	.fixed {
+		width: 100%;
+		position: unset;
+	}
+	
+	.header-menu>ul {
+		width: 100%;
+		overflow: hidden;
+		padding: 0px;
+	}
+	.menu-mobile  {
+		display: block;
+		
+	}
+	.menu-mobile>.menu {
+		cursor: pointer;
+	}
+	.header-menu>ul {
+margin-top: 55px;
+
+	}
+	.header-menu>ul>li {
+		float: none;
+		line-height: 36px;
+	}
+	.show-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    background: #fdf4f4;
+    opacity: 0.94;
+    height: -webkit-fill-available;
+    width: 70%;
+    margin: 0;
+	}
+	
+	.ticker {
+		width: 100%;
+		overflow: hidden;
+	}
+	.ticker>span {
+		font-size: 12px;
+	}
+	.banner {
+
+	}
+	.ticker-container {
+		
+	}
+	.ticker-container ul {
+
+	}
+	.ticker>.ticker-container span {
+
+	}
+	.new-arrival>.new-arrival-title {
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+	.new-arrival-content>.product-item {
+		width: 48.9%;
+		margin-right: 7.7px;
+		margin-left: 0px;
+		margin-bottom: 10px;
+	}
+	.new-arrival-content>.product-item:nth-child(even) {
+		margin-right: 0px;
+	}
+	.new-arrival-content {
+		overflow: unset;
+		width: 100%;
+	}
+    .block-service {
+    	display: none;
+    }
+	.block-service>.post-service{
+		width: 100%;
+	}
+	.block-service>.post-service>.post-info>.title {
+		display: block;
+	}
+	.block-home-banner {
+		overflow: unset;
+	}
+	.footer {
+		display: none;
+	}
+	.footer>.footer-column {
+		width: 100%;
+	}
+	.footer>.footer-column4>.footer-logo {
+		width: 100%;
+	}
+	.footer>.footer-column4>.block-subscribe {
+		width: 100%;
+	}
+	.footer>.footer-column4>.connect {
+		width: 100%;
+	}
+	.footer>.footer-column2 {
+		margin: 0px;
+	}
+	.footer-mobile {
+		display: block;
+		margin-top: 15px;
+	}
+}
